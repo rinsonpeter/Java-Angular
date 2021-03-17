@@ -1,0 +1,219 @@
+rinson@123
+rinson123
+
+
+
+Sample request
+
+User create:
+url:http://localhost:8080/users
+method:POST
+Headers:
+Content-Type: application/json
+Request body:
+{
+	"name": "Name",
+	"email": "testing@example.com",
+	"password": "Testing@123"
+}
+
+{
+	"name": "Name",
+	"email": "testing@exampleupdated.com",
+	"password": "Testing@123"
+}
+
+Login
+url:http://localhost:8080/login
+method:POST
+Headers:
+Content-Type:application/json
+Request body:
+{
+	"email": "testing@example.com",
+	"password": "Testing@123"
+}
+
+
+
+Contact List:
+url:http://localhost:8080/contacts
+method:GET
+Headers:
+Content-Type:application/json	
+Authorization: Contacts <accessToken value>
+
+Get the accessToken value from login success response
+Example Authorization header value:
+Contacts 54f4aaa5bf2a770a493505e5bfc3ff61e813785a9de1a64e497357a9dfe783c1e426676067c9db68e06705c34df06fe26438f6f0e61c07c0343441f8d7a92bea076e73382a8358dacede80f11ce06978
+
+
+
+
+{
+    "userId": 1,
+    "name": "Name",
+    "email": "testing@example.com",
+    "status": 1,
+    "createDate": "2021-03-03 17:33:28",
+    "updateDate": "2021-03-03 17:33:28",
+    "accessToken": {
+        "value": "18a8dc87f37193d86902d5b8a55770e02e089643b3e4dd8988cfce9d8357f631612cf4545c1d733d8326ccefaaea5f847af5511c0857945e25786f0ad3841c48460e5c6272782416cb708fdcfed7a4f9",
+        "expiry": "2021-03-04 17:34:39"
+    },
+    "refreshToken": {
+        "value": "8b3bbd4b856c3092bd9962815ef4e2924df5d27bc8bde5bdf22398e1a71d23a52d0b2725d6cf94fb02fd56bbc0d143d20d20f34a639f0d65ca29ad712429feced70c05e78d8016641ca36fbfb23586b4194137134eda545e25c49f32748ed09e79fccae1ba048ad4aea4537acd3d96e84fae76e7e7d9d7b0d368ad4450d31152fe9cc5cdae991fcf040e319933621819cefbcecc7026c33df1f6793665296220d0cee1bc6c5f18f9642e16926333bda6",
+        "expiry": "2021-03-04 17:34:39"
+    }
+}
+
+
+[
+    {
+        "contactId": 1,
+        "firstName": "rinson",
+        "lastName": null,
+        "nickName": null,
+        "dob": null,
+        "address": null,
+        "city": null,
+        "state": null,
+        "country": null,
+        "zipCode": null,
+        "status": 1,
+        "createDate": "2021-03-03 17:53:54",
+        "updateDate": "2021-03-03 17:53:54"
+    },
+    {
+        "contactId": 2,
+        "firstName": "sharon",
+        "lastName": null,
+        "nickName": null,
+        "dob": null,
+        "address": null,
+        "city": null,
+        "state": null,
+        "country": null,
+        "zipCode": null,
+        "status": 1,
+        "createDate": "2021-03-03 17:54:55",
+        "updateDate": "2021-03-03 17:54:55"
+    }
+]
+
+
+
+
+
+
+
+{
+	"name": "Name2345",
+	"email": "testingg22345@example.com",
+	"password": "Testingg2345@123"
+}
+
+57d7722cc2e7406977132cc8d2bbcc06b127621dc6bf267e78bb1195172b23d2f28bc77acc631477620e87b6db4eeea4cfa12b1d437201d18341eb91313914db966b343cc15c4f81af60ed334ab6e386
+
+1a1c74db1a24534f1a98f3ff0c969c8763d94d6bfa3b1dbda756ab9ca87b3e1c9679596063fcf2891a554eb0274cdbc841a682b61c9f60d6f1fc25b2b76a44d056adacd64e7b3eb02b319b45bcc2cdb1477d3bbc73e43f504d19c9d853e18031
+86f37adc3ebc0abb5949d18e835ec1a446eeb899f3fbbc4ec6d66dcb2eea0c5f9b4d8124a455589e0528b51920c934067810ce98eb20dbcd5b7d9c7766c342b7aaa90bf10469548d631f049f073dbb69
+
+
+
+
+
+******************************************************************************************************************************
+
+
+
+**********************************************************************************************************************************
+
+
+
+******************************************************************************************************************************
+user creation
+POST
+Request body:
+conteny type: Application/json
+
+{
+	"name": "Name",
+	"email": "testing@example.com",
+	"password": "Testing@123"
+}
+
+
+******************************************************************************************************************************
+user login
+POST
+Request body:
+conteny type: Application/json
+
+{
+	"name": "Name",
+	"email": "testing@example.com",
+	"password": "Testing@123"
+}
+
+bf7daac0d142356658a119902763a7e8c1a5073a12ad3bf79031aa677d7a4e3f710653e65d8e091e581583f78ebc7b42adbaff5233016bd5cd3e8c470c2d7e95d2fe929b76ddad11332f5cff605be208
+*****************************************************************************************************************************
+
+contact creation
+
+POST
+authorization
+Request body:
+{
+    "firstName": "trunkz",
+    "lastName": "N",
+    "nickName": "AN",
+    "dob": "1992-10-12",
+    "address": "T Nagar",
+    "city": "Kottayam",
+    "state": "Kerala",
+    "country": "India",
+    "zipCode": "678108",
+    "status": 1,
+    "phones": [
+        "9678903526"
+    ],
+    "emails": [
+        "vivi123@test.com"
+    ]
+}
+
+
+****************************************************************************************************************************
+
+
+ITEMS
+
+post
+
+http://localhost:8080/items
+
+{
+	"name":"mouse",
+	"description":"Accessory",
+	"type":1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

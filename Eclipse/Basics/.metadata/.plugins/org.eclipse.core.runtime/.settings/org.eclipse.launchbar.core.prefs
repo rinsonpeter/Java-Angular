@@ -1,0 +1,11 @@
+LaunchTargetManager/configs/pattern2.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/selection\ sort.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:input.exe,org.eclipse.launchbar.core.descriptorType.default\:input2.exe,org.eclipse.launchbar.core.descriptorType.default\:pattern2.exe,org.eclipse.launchbar.core.descriptorType.default\:primenumbers.exe,org.eclipse.launchbar.core.descriptorType.default\:sample1.exe,org.eclipse.launchbar.core.descriptorType.default\:sample2.exe,org.eclipse.launchbar.core.descriptorType.default\:selection sort.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:input.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:input.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:sample1.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:sample1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
